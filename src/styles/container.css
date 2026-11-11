@@ -1,0 +1,23 @@
+.container {
+  width: calc(100% - 30px);
+  max-width: var(--container-max-width);
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: calc(100% - 160px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: calc(100% - 240px);
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    width: calc(100% - 720px);
+  }
+}
